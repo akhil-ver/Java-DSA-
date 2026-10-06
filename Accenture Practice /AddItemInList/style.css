@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    margin-top: 20px;
+    padding-left: 25px;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+li button {
+    margin-left: 15px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+li button:hover {
+    background-color: darkred;
+}

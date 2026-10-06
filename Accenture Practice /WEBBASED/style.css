@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+   
+}
+p {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(64, 60, 60);
+    border: 2px solid rgb(125, 102, 102);
+    box-shadow: 5px 5px 10px 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
